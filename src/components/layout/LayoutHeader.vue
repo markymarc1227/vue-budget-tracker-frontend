@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-app-bar color="transparent" dense dark>
+    <v-app-bar color="seafoamgreen" dense dark>
       <!-- <v-app-bar-nav-icon></v-app-bar-nav-icon> -->
       <v-toolbar-title>{{ appTitle }}</v-toolbar-title>
       <v-spacer></v-spacer>
