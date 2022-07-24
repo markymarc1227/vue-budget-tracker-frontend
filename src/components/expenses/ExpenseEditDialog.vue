@@ -13,13 +13,18 @@
                     <v-text-field
                       label="Expense Name"
                       :rules="validateName"
+                      color="seafoamgreen"
                       v-model="newExpense.expense"
                     />
-                    <v-text-field label="Price" v-model="newExpense.price" />
+                    <v-text-field
+                      color="seafoamgreen"
+                      label="Price"
+                      v-model="newExpense.price"
+                    />
                     <v-checkbox
                       label="Mark"
                       v-model="newExpense.enable"
-                      color="spearmint"
+                      color="seafoamgreen"
                     />
                   </v-container>
                 </v-form>
